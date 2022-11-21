@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperNetCoreWithOracle", "DapperNetCoreWithOracle\DapperNetCoreWithOracle.csproj", "{254E0351-20E3-4773-AE71-4FC87FE44D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreFramework.Oracle", "CoreFramework.Oracle\CoreFramework.Oracle.csproj", "{EF7C1B86-330B-4A4C-A7ED-37208E760A26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{254E0351-20E3-4773-AE71-4FC87FE44D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254E0351-20E3-4773-AE71-4FC87FE44D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254E0351-20E3-4773-AE71-4FC87FE44D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254E0351-20E3-4773-AE71-4FC87FE44D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7C1B86-330B-4A4C-A7ED-37208E760A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7C1B86-330B-4A4C-A7ED-37208E760A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7C1B86-330B-4A4C-A7ED-37208E760A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7C1B86-330B-4A4C-A7ED-37208E760A26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D06E8E8E-D75D-45FF-921E-D0D2B3B04772}
+	EndGlobalSection
+EndGlobal
