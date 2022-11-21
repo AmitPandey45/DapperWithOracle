@@ -25,7 +25,7 @@ namespace CoreFramework.Oracle
                 var dyParam = new OracleDynamicParameters();
 
                 dyParam.Add("games", OracleDbType.RefCursor, ParameterDirection.Output);
-                var query = "ASTMADMIN.TEST_GETALLGAMES1";
+                var query = "TEST_GETALLGAMES1";
                 result = SqlMapper.Query(conn, query, param: dyParam, commandType: CommandType.StoredProcedure);
 
                 ////if (conn.State == ConnectionState.Closed)
@@ -35,7 +35,7 @@ namespace CoreFramework.Oracle
 
                 ////if (conn.State == ConnectionState.Open)
                 ////{
-                ////    var query = "ASTMADMIN.TEST_GETALLGAMES1";
+                ////    var query = "TEST_GETALLGAMES1";
 
                 ////    result = SqlMapper.Query(conn, query, param: dyParam, commandType: CommandType.StoredProcedure);
                 ////}
