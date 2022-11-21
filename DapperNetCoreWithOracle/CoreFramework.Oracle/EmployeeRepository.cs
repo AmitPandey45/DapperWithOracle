@@ -90,7 +90,7 @@ namespace CoreFramework.Oracle
             DbProviderFactory factory = DbProviderFactories.GetFactory(invariants.FirstOrDefault());
 
 
-            string password = "astm30";
+            string password = "abc";
             string connectionString = "User ID={0};Password={1};Data Source={2};Pooling=false;";
             ////string providerName = "Oracle.ManagedDataAccess.Client";
             string providerName = "System.Data.OracleClient";
